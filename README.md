@@ -1,4 +1,4 @@
-# @osaxyz/tooltip
+# @osaxyz/intersect
 
 ## インストール
 
