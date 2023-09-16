@@ -1,0 +1,9 @@
+{
+    "name": "@osaxyz/intersect",
+    "version": "1.0.0",
+    "private": false,
+    "main": "src/intersect.js",
+    "author": "Original SIN Architecture",
+    "license": "MIT",
+    "homepage": "https://osa.xyz"
+}
