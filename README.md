@@ -12,6 +12,8 @@
 
 ## 使い方
 
+### Vue.jsの場合
+
 1. `@osaxyz/intersect`から`intersectDirective`をインポートします・
 2. `app.use`を利用して登録して下さい。
 
@@ -23,6 +25,21 @@ const handleintersect = (entry, el) => {
     console.log(entry, el)
 }
 ```
+
+### Nuxt.jsの場合
+1. `plugins`配下に任意の名前のjsファイルを作成し、インポートします。
+2. `defineNuxtPlugin` を用いて登録します。
+
+```js
+import { defineNuxtPlugin } from 'nuxt/app'
+import intersectDirective from '@osaxyz/intersect'
+
+export default defineNuxtPlugin((nuxtApp) => {
+  nuxtApp.vueApp.use(intersectDirective)
+})
+```
+
+### コード
 
 ```html
 <YourCustomElements v-intersect="handleintersect">
