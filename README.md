@@ -6,7 +6,7 @@
 
 ## どう動くか
 
-`v-intersect="handleIntersept"`のように定義すると、要素が交差（Intersect）した際に関数が呼び出されます。
+`v-intersect="handleintersect"`のように定義すると、要素が交差（Intersect）した際に関数が呼び出されます。
 
 また、`entry`（交差情報）、`el`（交差したDOMの情報）を受け取ることができます。
 
@@ -19,11 +19,11 @@
 import intersectDirective from '@osaxyz/intersect'
 app.use(intersectDirective)
 
-const handleIntersept = (entry, el) => {
+const handleintersect = (entry, el) => {
     console.log(entry, el)
 }
 ```
 
 ```html
-<YourCustomElements v-intersept="handleIntersept">
+<YourCustomElements v-intersect="handleintersect">
 ```

@@ -27,6 +27,6 @@ const intersectDirective = {
 
 export default {
     install(app) {
-        app.directive('intersept', intersectDirective)
+        app.directive('intersect', intersectDirective)
     }
 }
