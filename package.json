@@ -1,9 +1,14 @@
 {
     "name": "@osaxyz/intersect",
-    "version": "1.1.0",
+    "version": "1.2.0",
+    "description": "Intersection Observer API を、Vue.jsで簡単に使用できるようにするためのnpmパッケージです。",
     "private": false,
-    "main": "src/intersect.js",
+    "main": "intersect.js",
     "author": "Original SIN Architecture",
     "license": "MIT",
-    "homepage": "https://osa.xyz"
+    "homepage": "https://osa.xyz",
+    "publishConfig": {
+        "access": "public"
+    }
 }
+
